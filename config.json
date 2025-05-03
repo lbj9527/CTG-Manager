@@ -1,0 +1,30 @@
+{
+    "api": {
+        "id": 25448404,
+        "hash": "0c910748a61fc30bb14e073a31933fb6",
+        "phone": "+1 256 888 8602"
+    },
+    "proxy": {
+        "enabled": true,
+        "type": "socks5",
+        "host": "127.0.0.1",
+        "port": 7890,
+        "username": null,
+        "password": null
+    },
+    "channels": {
+        "source": "https://t.me/joisiid",
+        "target": "https://t.me/xgyvcu"
+    },
+    "forwarder": {
+        "max_concurrent_downloads": 2,
+        "max_concurrent_uploads": 2,
+        "retry_count": 3,
+        "retry_delay": 5
+    },
+    "log": {
+        "level": "info",
+        "file": "telegram_forwarder.log",
+        "console": true
+    }
+} 
